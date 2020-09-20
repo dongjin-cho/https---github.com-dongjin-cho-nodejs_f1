@@ -1,9 +1,5 @@
 function basicAPI(res, req){
-    res.status(200).json(
-        {
-            'success' : true
-        }
-    )
+    res.render('index',{title: 'welcome future connect'})
 }
 
 function testAPI(res, req){
